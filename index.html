@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videography Portfolio - One Page</title>
+    <title>Videography Portfolio</title>
     <link href="templatemo-3d-coverflow.css" rel="stylesheet">
     <style>
         /* Video popup styles */
@@ -39,191 +39,191 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header" id="header">
-        <a href="#home" class="logo-container">
-            <div class="logo">
-                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <rect x="10" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(-15 17.5 50)" />
-                    <rect x="35" y="15" width="15" height="70" fill="url(#grad1)" />
-                    <rect x="60" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(15 67.5 50)" />
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5" />
-                </svg>
-            </div>
-            <div class="logo-text">My Videography</div>
-        </a>
-        
-        <nav class="main-menu" id="mainMenu">
-            <a href="#home" class="menu-item active">Home</a>
-            <a href="#about" class="menu-item">About</a>
-            <a href="#contact" class="menu-item">Contact</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="menu-item external">GitHub</a>
-        </nav>
-        
-        <div class="menu-toggle" id="menuToggle">
-            <span></span>
-            <span></span>
-            <span></span>
+
+<!-- Header -->
+<header class="header" id="header">
+    <a href="#home" class="logo-container">
+        <div class="logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <rect x="10" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(-15 17.5 50)" />
+                <rect x="35" y="15" width="15" height="70" fill="url(#grad1)" />
+                <rect x="60" y="25" width="15" height="50" fill="url(#grad1)" transform="rotate(15 67.5 50)" />
+                <circle cx="50" cy="50" r="45" fill="none" stroke="url(#grad1)" stroke-width="2" opacity="0.5" />
+            </svg>
         </div>
-    </header>
+        <div class="logo-text">My Videography</div>
+    </a>
+    <nav class="main-menu" id="mainMenu">
+        <a href="#home" class="menu-item active">Home</a>
+        <a href="#about" class="menu-item">About</a>
+        <a href="#contact" class="menu-item">Contact</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="menu-item external">GitHub</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
 
-    <!-- Home Section -->
-    <section id="home" class="section">
-        <div class="coverflow-wrapper">
-            <div class="info">
-                <h2 id="current-title">Featured Project</h2>
-                <p id="current-description">Click any thumbnail to watch the video</p>
-            </div>
-
-            <div class="coverflow-container" tabindex="0">
-                <div class="coverflow" id="coverflow">
-                    <!-- Video Items -->
-                    <div class="coverflow-item" data-index="0" data-video="https://www.youtube.com/watch?v=ypIhA049Ypo">
-                        <div class="cover image-loading">
-                            <img src="images/mountain-landscape.jpg" alt="Project 1" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
+<!-- Home Section -->
+<section id="home" class="section">
+    <div class="coverflow-wrapper">
+        <div class="info">
+            <h2 id="current-title">Featured Project</h2>
+            <p id="current-description">Click any thumbnail to watch the video</p>
+        </div>
+        <div class="coverflow-container" tabindex="0">
+            <div class="coverflow" id="coverflow">
+                <!-- Coverflow items with video, title, description -->
+                <div class="coverflow-item" data-index="0" 
+                    data-video="https://www.youtube.com/embed/ypIhA049Ypo"
+                    data-title="Mountain Adventure"
+                    data-description="Experience the majestic snow-covered peaks during golden hour">
+                    <div class="cover image-loading">
+                        <img src="images/mountain-landscape.jpg" alt="Project 1" loading="lazy">
                     </div>
-                    <div class="coverflow-item" data-index="1" data-video="https://www.youtube.com/watch?v=u5PhjJPsk5g">
-                        <div class="cover image-loading">
-                            <img src="images/forest-path.jpg" alt="Project 2" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="2" data-video="https://www.youtube.com/watch?v=14b45SuFICk">
-                        <div class="cover image-loading">
-                            <img src="images/serene-water-mirroring.jpg" alt="Project 3" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="3" data-video="https://www.youtube.com/watch?v=51Vt51lBjOs">
-                        <div class="cover image-loading">
-                            <img src="images/ocean-sunset-golden-hour.jpg" alt="Project 4" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="4" data-video="https://www.youtube.com/watch?v=GXSRoZAC4b4">
-                        <div class="cover image-loading">
-                            <img src="images/rolling-sand-dunes.jpg" alt="Project 5" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="5" data-video="https://www.youtube.com/watch?v=LVIzChnOAkI">
-                        <div class="cover image-loading">
-                            <img src="images/starry-night.jpg" alt="Project 6" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
-                    <div class="coverflow-item" data-index="6" data-video="https://www.youtube.com/watch?v=UISSOVD7fRo">
-                        <div class="cover image-loading">
-                            <img src="images/cascading-waterfall.jpg" alt="Project 7" loading="lazy">
-                        </div>
-                        <div class="reflection"></div>
-                    </div>
+                    <div class="reflection"></div>
                 </div>
-
-                <button class="nav-button prev" onclick="navigate(-1)">‹</button>
-                <button class="nav-button next" onclick="navigate(1)">›</button>
-                <div class="dots-container" id="dots"></div>
-
-                <!-- Play/Pause Button -->
-                <button class="play-pause-button" id="playPauseBtn" onclick="toggleAutoplay()">
-                    <span class="play-icon">▶</span>
-                    <span class="pause-icon" style="display: none;">❚❚</span>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="about-content">
-            <div class="about-header">
-                <h2>About My Work</h2>
-                <p>Professional videography portfolio showcasing my projects with immersive video experiences.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="contact-content">
-            <div class="contact-header">
-                <h2>Get In Touch</h2>
-                <p>Have a project in mind? Let's create something amazing together.</p>
-            </div>
-            
-            <div class="contact-container">
-                <div class="contact-form-section">
-                    <form class="contact-form" onsubmit="handleSubmit(event)">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
+                <div class="coverflow-item" data-index="1"
+                    data-video="https://www.youtube.com/embed/u5PhjJPsk5g"
+                    data-title="Forest Path"
+                    data-description="Walk through peaceful and lush forest paths">
+                    <div class="cover image-loading">
+                        <img src="images/forest-path.jpg" alt="Project 2" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
+                </div>
+                <div class="coverflow-item" data-index="2"
+                    data-video="https://www.youtube.com/embed/14b45SuFICk"
+                    data-title="Serene Lake"
+                    data-description="Relax by the calm lake reflecting the sky">
+                    <div class="cover image-loading">
+                        <img src="images/serene-water-mirroring.jpg" alt="Project 3" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
+                </div>
+                <div class="coverflow-item" data-index="3"
+                    data-video="https://www.youtube.com/embed/51Vt51lBjOs"
+                    data-title="Ocean Sunset"
+                    data-description="Golden hour over the beautiful ocean waves">
+                    <div class="cover image-loading">
+                        <img src="images/ocean-sunset-golden-hour.jpg" alt="Project 4" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
+                </div>
+                <div class="coverflow-item" data-index="4"
+                    data-video="https://www.youtube.com/embed/GXSRoZAC4b4"
+                    data-title="Desert Dunes"
+                    data-description="Rolling sand dunes creating endless patterns">
+                    <div class="cover image-loading">
+                        <img src="images/rolling-sand-dunes.jpg" alt="Project 5" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
+                </div>
+                <div class="coverflow-item" data-index="5"
+                    data-video="https://www.youtube.com/embed/LVIzChnOAkI"
+                    data-title="Starry Night"
+                    data-description="A mesmerizing night sky filled with stars">
+                    <div class="cover image-loading">
+                        <img src="images/starry-night.jpg" alt="Project 6" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
+                </div>
+                <div class="coverflow-item" data-index="6"
+                    data-video="https://www.youtube.com/embed/UISSOVD7fRo"
+                    data-title="Cascading Waterfall"
+                    data-description="Feel the power of a majestic waterfall in nature">
+                    <div class="cover image-loading">
+                        <img src="images/cascading-waterfall.jpg" alt="Project 7" loading="lazy">
+                    </div>
+                    <div class="reflection"></div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            © 2025 My Videography. All rights reserved.
-        </div>
-    </footer>
-
-    <!-- Video Popup -->
-    <div id="videoPopup" class="video-popup" onclick="closeVideoPopup()">
-        <div class="video-wrapper" onclick="event.stopPropagation()">
-            <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
-            <button class="close-btn" onclick="closeVideoPopup()">✖</button>
+            <button class="nav-button prev" onclick="navigate(-1)">‹</button>
+            <button class="nav-button next" onclick="navigate(1)">›</button>
+            <div class="dots-container" id="dots"></div>
+            <!-- Play/Pause Button -->
+            <button class="play-pause-button" id="playPauseBtn" onclick="toggleAutoplay()">
+                <span class="play-icon">▶</span>
+                <span class="pause-icon" style="display: none;">❚❚</span>
+            </button>
         </div>
     </div>
+</section>
 
-    <!-- Scroll to top -->
-    <div class="scroll-to-top" id="scrollToTop">
-        <span>↑</span>
+<!-- About Section -->
+<section id="about" class="section">
+    <div class="about-content">
+        <div class="about-header">
+            <h2>About My Work</h2>
+            <p>Professional videography portfolio showcasing my projects with immersive video experiences.</p>
+        </div>
     </div>
+</section>
 
-    <script src="templatemo-3d-coverflow-scripts.js"></script>
-    <script>
-        // Open video popup
-        document.querySelectorAll('.coverflow-item').forEach(item => {
-            item.addEventListener('click', () => {
-                const videoURL = item.getAttribute('data-video');
-                if(videoURL){
-                    document.getElementById('videoFrame').src = videoURL + "?autoplay=1";
-                    document.getElementById('videoPopup').style.display = 'flex';
-                }
-            });
-        });
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="contact-content">
+        <div class="contact-header">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind? Let's create something amazing together.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form-section">
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
-        // Close popup
-        function closeVideoPopup() {
-            document.getElementById('videoPopup').style.display = 'none';
-            document.getElementById('videoFrame').src = '';
-        }
-    </script>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        © 2025 My Videography. All rights reserved.
+    </div>
+</footer>
 
-</body>
-</html>
+<!-- Video Popup -->
+<div id="videoPopup" class="video-popup" onclick="closeVideoPopup()">
+    <div class="video-wrapper" onclick="event.stopPropagation()">
+        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+        <button class="close-btn" onclick="closeVideoPopup()">✖</button>
+    </div>
+</div>
+
+<!-- Scroll to top -->
+<div class="scroll-to-top" id="scrollToTop"><span>↑</span></div>
+
+<script src="templatemo-3d-coverflow-scripts.js"></script>
+<script>
+// Update title/description and open video popup
+document.querySelectorAll('.coverflow-item').forEach(item => {
+    item.addEventListener('click', () => {
+        const video
+::contentReference[oaicite:0]{index=0}
+ 
